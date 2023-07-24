@@ -2,11 +2,11 @@ package DogPackage;
 
 public class Dog {
 
-	int dogSize;
-	String dogName;
-	String breedType;
-	String barkType;
-	String[] dog = new String[4];
+	private int dogSize;
+	private String dogName;
+	private String breedType;
+	private String barkType;
+	private String[] dog = new String[4];
 	
 	public void setName(String name) {
 		dogName = name;
@@ -46,6 +46,7 @@ public class Dog {
 		dog[2] = breedType;
 		dog[3] = barkType;
 	}
+	
 	public String[] getDogArray() {
 		return dog;
 	}

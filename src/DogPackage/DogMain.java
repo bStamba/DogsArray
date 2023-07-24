@@ -10,6 +10,7 @@ public class DogMain {
 		
 		System.out.println("Welcome to Doggy Daycare, let's meet our graduating dogs!");
 		System.out.println("");
+		
 		//Our first dog, lets set its values, use our Dog class to put them in an array, and display the results printing to console.
 		dog1.setName("Annie");
 		dog1.setSize(8);
