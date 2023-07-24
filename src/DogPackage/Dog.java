@@ -41,8 +41,8 @@ public class Dog {
 	}
 	
 	public void setDogArray() {
-		dog[0] = Integer.toString(dogSize);
-		dog[1] = dogName;
+		dog[0] = dogName;
+		dog[1] = Integer.toString(dogSize);
 		dog[2] = breedType;
 		dog[3] = barkType;
 	}

@@ -19,7 +19,10 @@ public class DogMain {
 		dogArray = dog1.getDogArray();
 		System.out.print("Our first dog is: ");
 		for(int i = 0; i < dogArray.length; i++) {
-			System.out.print(dogArray[i] + ", ");
+			System.out.print(dogArray[i]);
+			if(i < 3) {
+				System.out.print(", ");
+			}
 		}
 		System.out.println("");
 		
@@ -33,6 +36,9 @@ public class DogMain {
 		System.out.print("Our second dog is: ");
 		for(int i = 0; i < dogArray.length; i++) {
 			System.out.print(dogArray[i]);
+			if(i < 3) {
+				System.out.print(", ");
+			}
 		}
 		System.out.println("");
 		
@@ -45,7 +51,10 @@ public class DogMain {
 		dogArray = dog3.getDogArray();
 		System.out.print("Our third dog is: ");
 		for(int i = 0; i < dogArray.length; i++) {
-			System.out.print(dogArray[i] + ", ");
+			System.out.print(dogArray[i]);
+			if(i < 3) {
+				System.out.print(", ");
+			}
 		}
 		
 		System.out.println("");
